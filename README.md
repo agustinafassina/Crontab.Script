@@ -3,7 +3,7 @@ A crontab is a configuration file in Linux that allows scheduling the automated 
 
 1. Run a script every day at 6:30 AM
 ```
-0 6 * * * /route/to/script.sh
+30 6 * * * /route/to/script.sh
 ```
 
 2. Run a command every hour:
