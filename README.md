@@ -25,3 +25,28 @@ A crontab is a configuration file in Linux that allows scheduling the automated 
 ```
 0 0 1 * */route/to/script.sh
 ```
+
+6. Run a script every 10 minutes:
+```
+*/10 * * * * /route/to/script.sh
+```
+
+7. Run a command every day at 11:59 PM:
+```
+59 23 * * * /route/to/script.sh
+```
+
+8. Run a script every Saturday at 9:00 AM:
+```
+0 9 * * 6 /route/to/script.sh
+```
+
+9. Run a command every 2 hours:
+```
+0 */2 * * * /route/to/script.sh
+```
+
+10. Run a script at 3:30 PM every weekday (Monday to Friday):
+```
+30 15 * * 1-5 /route/to/script.sh
+```
